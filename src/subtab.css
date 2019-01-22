@@ -1,0 +1,43 @@
+#sub ul,li{
+    list-style: none;
+  
+}
+#sub ul li{
+    border-bottom:1px double #eee;
+    padding: 6px 10px 3px 12px;
+    width: 97%;
+}
+#sub ul li:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #aaa inset;
+    color: #333;
+    background-color: #eee;
+}
+#sub ul{
+    padding-top: 50px;
+    width: 120px;
+    text-align: left;
+    margin-left: 0;
+}
+ul li:first-child{
+    border-top: 1px solid #eee;
+}
+ ul li:hover{
+    box-shadow: 1px 2px 1px #bbb inset;
+    background-color: #fff;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+#sub{
+    background-color: #fff;
+    margin-top: 60px;
+    border-top: 2px solid #ddd;
+    position: absolute;
+    top:-10px;
+    left:120px;
+    height:550px;
+    width:115px;
+    z-index: 100;
+}

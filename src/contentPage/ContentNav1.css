@@ -1,0 +1,16 @@
+.contentNav{
+    width: 95%;
+    height: 150px;
+    padding-left:10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+ .body1{
+    height: 120px;
+    background-color:rgba(116, 112, 112, 0.2);
+    padding: 12px;
+    margin-left: 15px;
+    display: inline-block;
+}
